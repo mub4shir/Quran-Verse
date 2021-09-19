@@ -9,27 +9,49 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <div class="app">
-      <header>Random Quran Verse Generator</header>
-      <section class="quotes">
-        <div class="quote-text" id="js-quote-text"></div>
-      </section>
-      <div id="js-spinner" class="spinner hidden">
-        <div class="rect1"></div>
-        <div class="rect2"></div>
-        <div class="rect3"></div>
-        <div class="rect4"></div>
-        <div class="rect5"></div>
+    <div class="container">
+      <div class="app">
+        <header>Random Quran Verse Generator</header>
+        <section class="quotes">
+          <div class="quote-text" id="js-quote-text"></div>
+        </section>
+        <div id="js-spinner" class="spinner hidden">
+          <div class="rect1"></div>
+          <div class="rect2"></div>
+          <div class="rect3"></div>
+          <div class="rect4"></div>
+          <div class="rect5"></div>
+        </div>
+        <section class="controls">
+          <button type="button" id="js-new-quote" class="new-quote button">
+            Generate a new verse
+          </button>
+          <a
+            class="twitter button"
+            id="js-tweet"
+            target="_blank"
+            rel="noreferrer"
+            >Tweet it!</a
+          >
+        </section>
       </div>
-      <section class="controls">
-        <button type="button" id="js-new-quote" class="new-quote button">
-          Generate a new verse
-        </button>
-        <a class="twitter button" id="js-tweet" target="_blank" rel="noreferrer"
-          >Tweet it!</a
-        >
-      </section>
+      <div class="bird-container bird-container--one">
+        <div class="bird bird--one"></div>
+      </div>
+
+      <div class="bird-container bird-container--two">
+        <div class="bird bird--two"></div>
+      </div>
+
+      <div class="bird-container bird-container--three">
+        <div class="bird bird--three"></div>
+      </div>
+
+      <div class="bird-container bird-container--four">
+        <div class="bird bird--four"></div>
+      </div>
     </div>
+
     <script src="app.js"></script>
   </body>
 </html>
