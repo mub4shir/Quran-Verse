@@ -167,6 +167,21 @@ header {
     -webkit-transform: scaleY(1);
   }
 }
+.footer {
+  font-family: inherit;
+  text-align: right;
+  font-size: 1rem;
+  color: white;
+  margin-top: 20px;
+}
+
+.footer span {
+  color: #ff1e42;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Arima+Madurai:300');
 
